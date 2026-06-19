@@ -1,0 +1,1 @@
+<template><section><h1 class="text-2xl font-bold mb-4">Payments</h1><div class="rounded bg-white p-4 shadow">Production API-backed Payments module placeholder with CRUD tables, filters, and exports.</div></section></template>

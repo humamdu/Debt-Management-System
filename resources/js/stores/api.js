@@ -1,0 +1,1 @@
+import {defineStore} from 'pinia';import axios from 'axios';export const useApi=defineStore('api',{state:()=>({user:null}),actions:{async get(url,params={}){return (await axios.get('/api/'+url,{params})).data},async post(url,data){return (await axios.post('/api/'+url,data)).data}}});

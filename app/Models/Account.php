@@ -1,0 +1,2 @@
+<?php
+namespace App\Models;use Illuminate\Database\Eloquent\Model;use Illuminate\Database\Eloquent\SoftDeletes;class Account extends Model{use BelongsToOrganization,SoftDeletes;protected $guarded=[];public function debts(){return $this->hasMany(Debt::class);}public function payments(){return $this->hasMany(Payment::class);}public function creditBalances(){return $this->hasMany(CreditBalance::class);}}

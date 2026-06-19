@@ -1,0 +1,2 @@
+#!/usr/bin/env php
+<?php echo "Install dependencies with composer install, then use Laravel artisan.\n";
